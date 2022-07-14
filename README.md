@@ -9,3 +9,11 @@
 - Se maqueteo el html
 - Se le colocaron las clases al html
 - Se le colocaron los estilos al css
+- Se finalizo el menu desplegable
+
+### Paso 1b: Creacion del loader(animacion) (pendiente)
+
+- Maquetacion en el html (pendiente)
+- Colocar clases al html (pendiente)
+- Colocar los estilos al css (pendiente)
+- Probar (pendiente)
