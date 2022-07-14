@@ -1,3 +1,6 @@
+:root {
+    --principal-background: #1D1D1D;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +9,100 @@
 a {
     text-decoration: none;
 }
+li {
+    list-style: none;
+}
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: var(--principal-background);
+}
+/* .mbtn {
+    display: flex;
+    justify-content: end;
+    margin: 8px 8px 0 0;
+    color: white;
+} */
+#check {
+    display: none;
+}
+#check:checked ~ .main-menu {
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+}
+.checkbtn {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+}
+.checkbtn i {
+    margin: 20px 20px 0 0;
+}
+.main-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: -100%;
+    background: var(--principal-background);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+.main-menu .main-menu--top {
+    /* El height se le debe cambiar a auto cuando se le coloque el logo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #0e0d0d;
+}
+.main-menu .main-menu--top span {
+    font-size: 14px;
+    font-weight: 300;
+    color: grey;
+}
+.main-menu .main-menu-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 0;
+    width: 100%;
+}
+.main-menu .main-menu-nav a {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(93, 93, 93);
+    color: grey;
+}
+.main-menu .main-menu-nav a:hover {
+    color: #13fdd8;
+}
+.main-menu ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.main-menu ul li {
+    margin: 0 8px;
+}
+.main-menu ul li i {
+    color: grey;
+}
+.main-menu ul li i:hover {
+    color: #13fdd8;
 }
