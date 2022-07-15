@@ -11,9 +11,23 @@
 - Se le colocaron los estilos al css
 - Se finalizo el menu desplegable
 
-### Paso 1b: Creacion del loader(animacion) (pendiente)
+### Paso 1b: Creacion del loader(animacion)
 
-- Maquetacion en el html (pendiente)
-- Colocar clases al html (pendiente)
-- Colocar los estilos al css (pendiente)
-- Probar (pendiente)
+- Maquetacion en el html
+- Colocar clases al html
+- Colocar los estilos al css
+- Probar
+
+### Paso 1c: Creacion de la main-page (pendiente)
+
+- Maquetacion en el html de las secciones principales que se van a mostrar (pendiente)
+    - Presentacion con boton de contact (pendiente)
+    - Proyectos (pendiente)
+    - Presentacion de que tecnologias manejo y la experiencia (pendiente)
+    - Cursos hechos en carrusel (pendiente)
+    - blog  (pendiente)
+    - Seccion de contacto (pendiente)
+
+- Colocar las clases al html (pendiente)
+- Colocar los estilos (pendiente)
+- Mostrar a un amigo (pendiente)
