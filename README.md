@@ -2,7 +2,7 @@
 
 ..
 
-## Paso 1: Creacion de responsive first
+## Paso 1: Creacion de responsive first del index.html
 
 ### Paso 1a: Creacion del menu desplegable en html y css
 
