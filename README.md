@@ -21,7 +21,7 @@
 ### Paso 1c: Creacion de la main-page (pendiente)
 
 - Maquetacion en el html de las secciones principales que se van a mostrar (pendiente)
-    - Presentacion con boton de contact (pendiente)
+    - Presentacion con boton de contact (hecho)
     - Proyectos (pendiente)
     - Presentacion de que tecnologias manejo y la experiencia (pendiente)
     - Cursos hechos en carrusel (pendiente)
