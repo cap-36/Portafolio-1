@@ -23,7 +23,7 @@
 - Maquetacion en el html de las secciones principales que se van a mostrar (pendiente)
     - Presentacion con boton de contact (hecho)
     - Proyectos (hecho)
-    - Presentacion de que tecnologias manejo y la experiencia (pendiente)
+    - Presentacion de que tecnologias manejo y la experiencia (hecho)
     - Cursos hechos en carrusel (pendiente)
     - blog  (pendiente)
     - Seccion de contacto (pendiente)
