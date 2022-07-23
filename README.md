@@ -2,7 +2,7 @@
 
 ..
 
-## Paso 1: Creacion de responsive first del index.html
+## Paso 1: Creacion de responsive first del index.html y main.css
 
 ### Paso 1a: Creacion del menu desplegable en html y css
 
@@ -22,7 +22,7 @@
 
 - Maquetacion en el html de las secciones principales que se van a mostrar (pendiente)
     - Presentacion con boton de contact (hecho)
-    - Proyectos (pendiente: falta terminar la section del slider y agregar las 2 imgs a este)
+    - Proyectos (hecho)
     - Presentacion de que tecnologias manejo y la experiencia (pendiente)
     - Cursos hechos en carrusel (pendiente)
     - blog  (pendiente)
