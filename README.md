@@ -26,7 +26,8 @@
     - Presentacion de que tecnologias manejo y la experiencia (hecho)
     - Cursos hechos en carrusel (Esta section puede ir en la pagina about_me.html)
     - blog (hecho)
-    - Seccion de contacto (pendiente)
+    - Seccion de contacto (hecho) (pendiente hacer mapa para ver donde vivo)
+    - Mirar si colocar el span en cada section con su nombre o no.
 
 - Colocar las clases al html (pendiente)
 - Colocar los estilos (pendiente)
