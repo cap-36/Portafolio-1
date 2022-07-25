@@ -24,8 +24,8 @@
     - Presentacion con boton de contact (hecho)
     - Proyectos (hecho)
     - Presentacion de que tecnologias manejo y la experiencia (hecho)
-    - Cursos hechos en carrusel (pendiente)
-    - blog  (pendiente)
+    - Cursos hechos en carrusel (Esta section puede ir en la pagina about_me.html)
+    - blog (hecho)
     - Seccion de contacto (pendiente)
 
 - Colocar las clases al html (pendiente)
