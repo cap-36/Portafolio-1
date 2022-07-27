@@ -122,6 +122,7 @@ body {
     padding: 0 30px;
     background-image: url("../assets/imgs/op1-background.jpg");
     background-size: cover;
+    background-position: center;
 }
 .section-work {
     width: 100%;
@@ -305,9 +306,7 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    /* overflow: hidden; */
 }
-
 .contact-container ul li {
     display: block;
     margin-bottom: 10px;
@@ -334,6 +333,9 @@ body {
     background: #2b2b2b;
     border: none;
     font-size: 1.6rem;
+}
+.contact-form .form-button {
+    margin-top: 1rem;
 }
 /* loader */
 .loader-container {
