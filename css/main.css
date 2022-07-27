@@ -36,9 +36,14 @@ body {
     z-index: 4;
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    right: 10px;
     font-size: 4rem;
     color: white;
+}
+.checkbtn:hover i {
+    color: var(--special);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in;
 }
 .checkbtn i {
     margin: 20px 20px 0 0;
@@ -111,6 +116,7 @@ body {
     z-index: 2;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 .section-full {
     padding: 0 30px;
@@ -287,7 +293,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
-    font-size: 15rem;
+    font-size: 17rem;
     color: #262626;
 }
 .section-hero {
@@ -299,8 +305,9 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
+
 .contact-container ul li {
     display: block;
     margin-bottom: 10px;

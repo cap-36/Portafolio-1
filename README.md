@@ -27,7 +27,7 @@
     - Cursos hechos en carrusel (Esta section puede ir en la pagina about_me.html)
     - blog (hecho)
     - Seccion de contacto (hecho) (pendiente hacer mapa para ver donde vivo)
-    - Mirar si colocar el span en cada section con su nombre o no.
+    - Arreglar el boton de la section de contact despues de ver las clases (pendiente)
 
 - Colocar las clases al html (pendiente)
 - Colocar los estilos (pendiente)
