@@ -24,13 +24,6 @@ body {
     width: 100%;
     height: 100vh;
 }
-#check {
-    display: none;
-}
-#check:checked ~ .main-menu {
-    transform: translateY(100%);
-    transition: transform 0.5s ease-in-out;
-}
 .checkbtn {
     position: fixed;
     z-index: 4;
@@ -56,8 +49,10 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    top: -100%;
     background: var(--principal-background);
+    transition: transform 0.5s ease;
+}
+.inactive { 
     transform: translateY(-100%);
     transition: transform 0.3s ease;
 }

@@ -4,11 +4,12 @@
 
 ## Paso 1: Creacion de responsive first del index.html y main.css
 
-### 1a: Creacion del menu desplegable en html y css
+### 1a: Creacion del menu desplegable en html, css y JavaScript
 
 - Se maqueteo el html
 - Se le colocaron las clases al html
-- Se le colocaron los estilos al css
+- Se le colocaron los estilos al css con sus animaciones
+- Se llamaron las clases en el JavaScript y se hizo la function "toggleMainMenu(), para colocar la clase inactive"
 - Se finalizo el menu desplegable
 
 ### 1b: Creacion del loader(animacion)
@@ -20,9 +21,9 @@
 
 ### 1c: Creacion de la main-page (pendiente)
 
-- Maquetacion en el html de las secciones principales que se van a mostrar (pendiente)
+- Maquetacion en el html, css y javascript de las secciones principales que se van a mostrar (pendiente)
     - Presentacion con boton de contact (hecho)
-    - Proyectos (hecho)
+    - Proyectos, se tiene que hacer un javascript para encapsular el codigo html y asi poder hacerlo mas escalable, cuando se quiera colocar nuevos proyectos (pendiente)
     - Presentacion de que tecnologias manejo y la experiencia (hecho)
     - Cursos hechos en carrusel (Esta section puede ir en la pagina about_me.html)
     - blog (hecho)
@@ -31,6 +32,7 @@
 
 - Colocar las clases al html (hecho)
 - Colocar los estilos (hecho)
+- Colocar la maquetacion de html en javascript para la section de proyectos (pendiente)
 - Mostrar a un amigo (Hecho)
 
 ## Paso 1.1: Creacion de el about_me.html con su CSS en responsive
