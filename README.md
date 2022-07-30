@@ -24,6 +24,7 @@
 - Maquetacion en el html, css y javascript de las secciones principales que se van a mostrar (pendiente)
     - Presentacion con boton de contact (hecho)
     - Proyectos, se tiene que hacer un javascript para encapsular el codigo html y asi poder hacerlo mas escalable, cuando se quiera colocar nuevos proyectos (pendiente)
+        - Agregar el nuevo proyecto de YardSale: Tienda online (pendiente)
     - Presentacion de que tecnologias manejo y la experiencia (hecho)
     - Cursos hechos en carrusel (Esta section puede ir en la pagina about_me.html)
     - blog (hecho)
@@ -34,6 +35,12 @@
 - Colocar los estilos (hecho)
 - Colocar la maquetacion de html en javascript para la section de proyectos (pendiente)
 - Mostrar a un amigo (Hecho)
+
+### 1d: Agregar los media queries (pendiente)
+
+- Se agregaron los media queries hasta el 1024px (pendiente)
+- Revisar el grid-template-column: si es fit o fill, agregando los demas proyectos (pendiente)
+- Despues de los 1300px, el hamburguerMenu desaparece y el main-menu se queda en la parte izquierda de la pagina, agregar width y height (pendiente)
 
 ## Paso 1.1: Creacion de el about_me.html con su CSS en responsive
 
