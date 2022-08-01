@@ -38,16 +38,16 @@
 
 ### 1d: Agregar los media queries (pendiente)
 
-- Se agregaron los media queries hasta el 1024px (pendiente)
-- Revisar el grid-template-column: si es fit o fill, agregando los demas proyectos (pendiente)
-- Despues de los 1300px, el hamburguerMenu desaparece y el main-menu se queda en la parte izquierda de la pagina, agregar width y height (pendiente)
+- Se agregaron los media queries hasta el 1300px en adelante (hecho)
+- Queda mejor el gri-temprate-colummn fill para todos los tamaños de pantalla (hecho)
+- Despues de los 1300px, el hamburguerMenu desaparece y el main-menu se queda en la parte izquierda de la pagina, agregar position: fixed; y los width y height (hecho)
 
 ## Paso 1.1: Creacion de el about_me.html con su CSS en responsive
 
 ### 1.1a: Redaccion del articulo 
 - Cursos hechos en carrusel (pendiente)
 
-- Creacion del html (pendiente)
-- Colocar las clases (pendiente)
-- Crear los estilos (pendiente)
+- Creacion del html (hecho)
+- Colocar las clases (hecho)
+- Crear los estilos (hecho)
 
