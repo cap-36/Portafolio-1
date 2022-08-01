@@ -23,12 +23,12 @@
 
 - Maquetacion en el html, css y javascript de las secciones principales que se van a mostrar (pendiente)
     - Presentacion con boton de contact (hecho)
-    - Proyectos, se tiene que hacer un javascript para encapsular el codigo html y asi poder hacerlo mas escalable, cuando se quiera colocar nuevos proyectos (pendiente)
-        - Agregar el nuevo proyecto de YardSale: Tienda online (pendiente)
+    - Proyectos, se tiene que hacer un javascript para encapsular el codigo html y asi poder hacerlo mas escalable, cuando se quiera colocar nuevos proyectos (hecho)
+        - Agregar el nuevo proyecto de YardSale: Tienda online (hecho)
     - Presentacion de que tecnologias manejo y la experiencia (hecho)
-    - Cursos hechos en carrusel (Esta section puede ir en la pagina about_me.html)
     - blog (hecho)
     - Seccion de contacto (hecho) (pendiente hacer mapa para ver donde vivo)
+        - en la section de contactos arreglar el textarea (hecho)
     - Arreglar el boton de la section de contact despues de ver las clases (pendiente)
 
 - Colocar las clases al html (hecho)
@@ -45,6 +45,8 @@
 ## Paso 1.1: Creacion de el about_me.html con su CSS en responsive
 
 ### 1.1a: Redaccion del articulo 
+- Cursos hechos en carrusel (pendiente)
+
 - Creacion del html (pendiente)
 - Colocar las clases (pendiente)
 - Crear los estilos (pendiente)

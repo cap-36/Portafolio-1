@@ -213,7 +213,7 @@ body {
 .proyect-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
-    gap: 26px;
+    gap: 24px;
     place-content: center;
     margin-top: 20px;
     margin-top: 100px;
@@ -234,18 +234,15 @@ body {
 }
 .proyect-container .proyect--card:hover .opacity {
     visibility: hidden;
-    transition: visibility ease-in;
 }
 .proyect-container .proyect--card:hover .magic-item {
     visibility: visible;
-    transform: scale(2);
+    transform: scale(1.5);
     transition: transform 0.5s ease-in;
 }
 .proyect-container .proyect--card img {
     position: absolute;
     z-index: 1;
-    transform: scale(1);
-    transition: transform 0.3s ease-out;
 }
 .proyect-container .proyect--card:nth-child(2)  img {
     width: 100%;
@@ -300,6 +297,7 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 .contact-container ul li {
     display: block;
