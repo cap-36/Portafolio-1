@@ -42,12 +42,16 @@
 - Queda mejor el gri-temprate-colummn fill para todos los tamaños de pantalla (hecho)
 - Despues de los 1300px, el hamburguerMenu desaparece y el main-menu se queda en la parte izquierda de la pagina, agregar position: fixed; y los width y height (hecho)
 
-## Paso 1.1: Creacion de el about_me.html con su CSS en responsive
+## Paso 2: Creacion de el about_me.html con su CSS en responsive
 
-### 1.1a: Redaccion del articulo 
 - Cursos hechos en carrusel (pendiente)
 
 - Creacion del html (hecho)
 - Colocar las clases (hecho)
 - Crear los estilos (hecho)
 
+## Paso 3: Creacion de el skills.html con su css en responsive
+
+- Redaccion de el p-hero donde se diga las habilidades que he aprendido como las que estoy en desarrollo.
+- Crear una seccion donde se vea el progreso de las skills.
+- Crear otra section donde pueda colocar los trabajos donde he estado.
