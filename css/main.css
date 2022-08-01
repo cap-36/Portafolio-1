@@ -419,10 +419,61 @@ body {
         font-size: 2rem;
         line-height: 1.3;
     }
-    .proyect-container {
-        grid-template-columns: repeat(auto-fit, 250px);
-    }
     .proyect-container .proyect--card {
         height: 220px;
+    }
+}
+@media (min-width: 1300px) {
+    .page {
+        display: flex;
+    }
+    .checkbtn {
+        display: none;
+    }
+    .inactive {
+        transform: none;
+        transition: none;
+    }
+    .main-menu {
+        position: fixed;
+        display: flex;
+        width: 18rem;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        right: auto;
+        bottom: 0;
+    }
+    .main-menu .main-menu--top {
+        height: 35%;
+    }
+    .main-menu ul {
+        height: 0;
+    }
+    .section-full {
+        padding: 0 3rem 0 21rem;
+    }
+    .main-page .presentation-container h1 {
+        font-size: 7rem;
+    }
+    .principal-buttons {
+        width: 220px;
+        height: 60px;
+    }
+    .principal-buttons .text {
+        font-size: 1.7rem;
+    }
+    .title-hero {
+        font-size: 6.5rem;
+    }
+    .p-hero {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .proyect-container .proyect--card {
+        height: 240px;
+    }
+    .contact-container {
+        margin-bottom: 100px;
     }
 }
