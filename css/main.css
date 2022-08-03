@@ -613,8 +613,12 @@ body {
     }
     .skills-info {
         width: 50%;
+        padding-right: 3rem;
     }
     .skills-progress {
         width: 50%;
+    }
+    .skills-hero {
+        margin-bottom: 4rem;
     }
 }
