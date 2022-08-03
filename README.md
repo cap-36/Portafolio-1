@@ -33,10 +33,9 @@
 
 - Colocar las clases al html (hecho)
 - Colocar los estilos (hecho)
-- Colocar la maquetacion de html en javascript para la section de proyectos (pendiente)
 - Mostrar a un amigo (Hecho)
 
-### 1d: Agregar los media queries (pendiente)
+### 1d: Agregar los media queries (hecho)
 
 - Se agregaron los media queries hasta el 1300px en adelante (hecho)
 - Queda mejor el gri-temprate-colummn fill para todos los tamaños de pantalla (hecho)
@@ -44,14 +43,12 @@
 
 ## Paso 2: Creacion de el about_me.html con su CSS en responsive
 
-- Cursos hechos en carrusel (pendiente)
-
 - Creacion del html (hecho)
 - Colocar las clases (hecho)
 - Crear los estilos (hecho)
 
-## Paso 3: Creacion de el skills.html con su css en responsive
+## Paso 3: Creacion de el skills.html con su css en responsive (hecho)
 
 - Redaccion de el p-hero donde se diga las habilidades que he aprendido como las que estoy en desarrollo.
-- Crear una seccion donde se vea el progreso de las skills.
+- Crear una seccion donde se vea el progreso de las skills y dentro poder colocar los cursos que se han hecho, de cada uno html, css y javascript.
 - Crear otra section donde pueda colocar los trabajos donde he estado.

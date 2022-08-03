@@ -328,6 +328,128 @@ body {
 .contact-form .form-button {
     margin-top: 1rem;
 }
+
+/* About_me.html */
+.about-page {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* skills.html */
+.skills-page {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.skills-progress {
+    display: flex;
+    flex-direction: column;
+}
+.skills-hero {
+    margin-bottom: 2rem;
+}
+.skills-hero span {
+    font-size: 1.8rem;
+    color: white;
+}
+.skills-hero .progress-container {
+    position: relative;
+    margin-top: 1rem;
+    width: 100%;
+    height: 3px;
+    background: #373737;
+    overflow: hidden;
+}
+.skills-hero .progress-container .progress-html {
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    background: #CA4F01;
+
+    animation: skills1 1s linear 1.3s;
+    
+}
+@keyframes skills1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.skills-hero .progress-container .progress-css {
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    background: #2071F2;
+
+    animation: skills2 1s linear 1.3s;
+}
+@keyframes skills2 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.skills-hero .progress-container .progress-js {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: #EAD517;
+
+    animation: skills3 1s linear 1.3s;
+}
+@keyframes skills3 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.experience-container {
+    margin-top: 2rem;
+}
+.expirience-info {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2rem;
+    background: #2A2A2A;
+}
+.expirience-info h4 {
+    color: white;
+}
+.expirience-info h4 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.expirience-info p {
+    color: #A9A9A9;
+    font-weight: 500;
+}
+.expirience-info p:nth-child(2) {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+.expirience-info p:nth-child(3),
+.expirience-info p:nth-child(4) {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
 /* loader */
 .loader-container {
     position: fixed;
@@ -386,20 +508,6 @@ body {
     }
 }
 
-/* About_me.html */
-    .about-page {
-        position: absolute;
-        display: flex;
-        z-index: 2;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-
-
-
 @media (min-width: 768px) {
     .main-page .presentation-container h1 {
         font-size: 4rem;
@@ -413,6 +521,9 @@ body {
     .p-hero {
         font-size: 2rem;
         line-height: 1.3;
+    }
+    .skills-page {
+        height: inherit;
     }
 }
 @media (min-width: 1024px) {
@@ -435,6 +546,9 @@ body {
     }
     .proyect-container .proyect--card {
         height: 220px;
+    }
+    .skills-page {
+        height: inherit;
     }
 }
 @media (min-width: 1200px) {
@@ -489,5 +603,18 @@ body {
     }
     .contact-container {
         margin-bottom: 100px;
+    }
+    .skills-page {
+        height: -webkit-fill-available;
+    }
+    .skills-container {
+        display: flex;
+        justify-self: center;
+    }
+    .skills-info {
+        width: 50%;
+    }
+    .skills-progress {
+        width: 50%;
     }
 }
