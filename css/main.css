@@ -189,9 +189,10 @@ body {
     color: var(--special);
     font-size: 1.4rem;
 }
-.main-page .proyects-container {
+.proyects-container {
     width: 100%;
     height: auto;
+    margin-bottom: 5rem;
 }
 .title-hero {
     margin-bottom: 1.5rem;
@@ -448,6 +449,18 @@ body {
 .expirience-info p:nth-child(4) {
     margin-bottom: 1rem;
     font-size: 1.4rem;
+}
+
+/* proyects.html */
+.proyects-page {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 /* loader */

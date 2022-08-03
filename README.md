@@ -52,3 +52,15 @@
 - Redaccion de el p-hero donde se diga las habilidades que he aprendido como las que estoy en desarrollo.
 - Crear una seccion donde se vea el progreso de las skills y dentro poder colocar los cursos que se han hecho, de cada uno html, css y javascript.
 - Crear otra section donde pueda colocar los trabajos donde he estado.
+
+## Paso 4: Creacion de el proyects.html (pendiente)
+
+- Creacion del html (hecho)
+- Colocar las clases (hecho)
+- Crear los estilos (hecho)
+
+## Paso 5: Creacion de el contact.html
+
+- Creacion del html (hecho)
+- Colocar las clases (hecho)
+- Crear los estilos (hecho)
