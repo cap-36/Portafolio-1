@@ -128,31 +128,33 @@
                     <p class="p-hero">
                         I am interested in opportunities with ambitious companies where I can learn, also in independent projects, however, if you have any other concerns, do not hesitate to write.
                     </p>
-                    <form action="enviar.php" method="post" class="contact-form">
+                    <form action="https://formsubmit.co/capinz91@gmail.com" method="POST" class="contact-form">
                         <!-- <input type="text" name="name" id="name" class="input-form">
                         <input type="email" name="email" id="email" class="input-form">
                         <input type="text" name="phone" id="subject" class="input-form">
                         <textarea name="message" id="message" class="messaje"></textarea> -->
                         <ul>
                             <li>
-                                <input type="text" name="name" placeholder="Name" id="name" class="input-form">
+                                <label for="nombre"></label>
+                                <input type="text" name="name" placeholder="Name" id="name" class="input-form" required>
                             </li>
                             <li>
-                                <input type="text" name="email" placeholder="Email" id="email" class="input-form" required>
+                                <input type="email" name="email" placeholder="Email" id="email" class="input-form" required>
                             </li>
                             <li>
-                                <input type="text" name="phone" placeholder="Number" id="subject" class="input-form">
+                                <label for="subject"></label>
+                                <input type="text" name="subject" placeholder="subject" id="subject" class="input-form">
                             </li>
                             <li>
+                                <label for="message"></label>
                                 <textarea name="message" placeholder="Message" id="message" class="message" required></textarea>
                             </li>
-                            <a class="principal-buttons form-button">
-                                <div>
-                                    <span class="bg"></span>
-                                    <span class="base"></span>
-                                    <span class="text">Send message!</span>
-                                </div>
-                            </a>
+    
+                            <button type="submit" class="form-button">
+                                Send!
+                                <span>Send!</span>
+                            </button>
+                                
                         </ul>
                     </form>
                 </div>
