@@ -680,4 +680,7 @@ body {
     .skills-hero {
         margin-bottom: 4rem;
     }
+    .loader-container {
+        padding: 0 0 0 18rem;
+    }
 }
